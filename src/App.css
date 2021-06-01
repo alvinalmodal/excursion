@@ -3,3 +3,82 @@
   padding: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+body {
+  background-color: #000000;
+  color: white;
+  overflow-x: hidden;
+  padding-bottom: 2em;
+}
+
+#header {
+  font-weight: normal;
+  font-size: 50px;
+  width: 100vw;
+  text-align: center;
+  margin-top: 0.65em;
+}
+
+#download {
+  width: 100vw;
+  text-align: center;
+  margin-top: 2.5em;
+  font-weight: 500;
+}
+
+#download a {
+  color: aquamarine;
+  font-size: 16px;
+}
+
+#phone-video {
+  text-align: center;
+  margin-top: 2.1em;
+}
+
+#video-caption {
+  font-weight: 300;
+  font-size: 42px;
+  margin-top: 1.5em;
+}
+
+#camp-page {
+  margin-top: 1.5em;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.camp-page-tagline {
+  margin-top: 2em;
+  text-align: center;
+  color: grey;
+  font-size: 21px;
+}
+
+#phone-icon {
+  width: 100vw;
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+#phone-caption {
+  font-weight: normal;
+  font-size: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.65em;
+}
+
+#footer {
+  margin-top: 5em;
+}
+
+#copyright {
+  text-align: right;
+  color: grey;
+  font-size: 21px;
+  margin-right: 2em;
+}
